@@ -1,0 +1,142 @@
+input {
+  height: 30px;
+  font-size: smaller;
+  color: black;
+}
+button {
+  height: 36px;
+  color: white;
+
+  background-color: rgb(23, 197, 130);
+}
+
+.title {
+  text-align: center;
+  color: rgb(10, 173, 255);
+  background-color: rgb(58, 56, 56);
+}
+
+.homepage {
+  /* height: 100vh; */
+  background: rgb(245, 179, 72);
+  background: linear-gradient(
+    -30deg,
+    rgb(194, 81, 109) 25%,
+
+    rgb(255, 255, 255) 20%,
+
+    rgb(255, 255, 255) 58%
+  );
+}
+.background {
+  height: 100vh;
+  background: rgb(194, 81, 109);
+
+  background: linear-gradient(
+    342deg,
+    rgba(194, 81, 109, 1) 14%,
+    rgb(81, 48, 97) 60%,
+    rgba(30, 34, 85, 1) 59%
+  );
+}
+
+.cover {
+  height: 333px;
+
+  /* padding-top: 420px; */
+  background-image: url("/public/wall2500px.png");
+  background-size: contain; /* Das Bild auf die volle Größe des Elements skalieren */
+  background-repeat: no-repeat; /* Das Bild nicht wiederholen */
+}
+
+.bild2 {
+  /* box-shadow: 1px 1px 10px 1px rgb(133, 124, 124); */
+  margin: 40px;
+  height: 333px;
+  background-image: url("/public/QrCode30.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: "bottom"; */
+}
+
+.Fragen {
+  text-align: center;
+  background: rgb(255, 255, 255);
+
+  padding: 15px;
+}
+.deinpopup {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.popup-content {
+  /* background-color: rgb(98, 175, 172); */
+  font-size: 16px; /* Passe die Schriftgröße nach Bedarf an */
+}
+.popuptextcolor {
+  color: #000000;
+  font-size: larger;
+}
+
+.buttonLogout {
+  background: none;
+  border: none;
+  width: 100px;
+  color: black;
+  font-size: 20px;
+}
+
+.buttonFertig {
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 20px;
+  background-color: rgb(206, 32, 75);
+  height: 50px;
+  width: 100px;
+  margin: 30px;
+  color: rgb(250, 250, 250);
+}
+.buttonHilfe {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(58, 56, 56);
+  width: 100px;
+  color: rgb(255, 255, 255);
+}
+
+.noButtom {
+  border: none;
+  background: none;
+  color: white;
+}
+.willkommenstext {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 1px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  --webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  margin: 10px;
+  padding: 15px;
+}
+
+.card {
+  border: 1px solid rgb(255, 255, 255);
+  width: 280px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  margin: auto;
+  margin: 10px;
+
+  background: linear-gradient(
+    0deg,
+    rgba(206, 32, 75, 0.935) 70%,
+    rgb(66, 64, 64) 30%
+  );
+  border-radius: 5px;
+}
+.inderNähe {
+  width: 350px;
+  margin: auto;
+  overflow-y: auto;
+  max-height: 400px;
+}

@@ -1,0 +1,24 @@
+
+
+node_modules/
+.firebase/
+build/
+dist/
+public/
+src/*
+
+!src/App.js
+!src/App.css
+!src/MeineApp.js
+!src/images
+
+.env
+
+# Ignoriere Log-Dateien
+npm-debug.log*
+
+# Ignoriere Editor- und Systemdateien
+.DS_Store
+.idea/
+.vscode/
+*.swp
